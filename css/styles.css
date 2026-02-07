@@ -24,6 +24,7 @@ address {
 .header {
 }
 .logo {
+  font-family: "Raleway", sans-serif;
 }
 .logo-web {
   font-family: "Raleway", sans-serif;
@@ -47,9 +48,17 @@ address {
   font-family: "Roboto", sans-serif;
 }
 .nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .list-link {
   color: #2e2f42;
+}
+.list-link:hover {
+  color: #404bbf;
 }
 .address {
 }
@@ -62,6 +71,9 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.mail-link:hover {
+  color: #404bbf;
+}
 .num-link {
   font-weight: 400;
   font-size: 16px;
@@ -69,9 +81,21 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.num-link:hover {
+  color: #404bbf;
+}
 .hero {
+  background-color: #2e2f42;
 }
 .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 .hero-btn {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
