@@ -1,8 +1,8 @@
 /* #Region Base Style */
 body {
-  color: #111;
+  color: #434455;
   background-color: #fff;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -45,25 +45,27 @@ address {
   color: #2e2f42;
 }
 .nav {
-  font-family: "Roboto", sans-serif;
 }
 .nav-list {
+}
+.nav-item {
+}
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.list-link {
-  color: #2e2f42;
-}
-.list-link:hover,
-:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 .address {
 }
 .address-list {
+}
+.mail-item {
 }
 .mail-link {
   font-weight: 400;
@@ -72,8 +74,11 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.mail-link:hover {
+.mail-link:hover,
+.mail-link:focus {
   color: #404bbf;
+}
+.num-item {
 }
 .num-link {
   font-weight: 400;
@@ -82,7 +87,8 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.num-link:hover {
+.num-link:hover,
+.num-link:focus {
   color: #404bbf;
 }
 .hero {
